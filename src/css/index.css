@@ -1,0 +1,555 @@
+.introduction {
+    width: 100%;
+    height: 100vh;
+    background: #003600;
+    position: relative;
+}
+
+/* background-image: linear-gradient(to right top, #003600, #008000); */
+
+.introduction::before {
+    content: '';
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 12;
+    background: linear-gradient(to top, #203636, transparent);
+}
+
+.introduction .fieldText {
+    width: 50%;
+    height: 90%;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    transition: 0.5s all ease-in-out;
+}
+
+.introduction.sticky .fieldText {
+    padding: 40px;
+}
+
+.introduction .fieldText h1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.introduction .fieldText p {
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 5px;
+    font-weight: 300;
+}
+
+.introduction .fieldText a {
+    background: #f29200;
+    color: #ffffff;
+    padding: 15px 30px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.introduction .fieldText a:hover {
+    letter-spacing: 4px;
+    background: #f29200;
+}
+
+.introduction .fieldIMG {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.introduction .fieldIMG img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.information {
+    width: 100%;
+    height: 100vh;
+    /* background-image: linear-gradient(to top, #003600, #008000); */
+    background: #203636;
+}
+
+.information .row {
+    width: 100%;
+    height: 100vh;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information .row .fieldLeft {
+    width: 30%;
+}
+
+.information .row .fieldRight {
+    width: 70%;
+    margin-left: 20px;
+}
+
+.information .row .fieldRight h1 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.information .row .fieldRight h1 span {
+    color: #f29200;
+    font-size: 30px;
+}
+
+.information .row .fieldRight h2 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.information .row .fieldRight p {
+    margin-bottom: 18px;
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 5px;
+    font-weight: 300;
+}
+
+.information .row .fieldRight .btn {
+    background: #f29200;
+    color: #ffffff;
+    padding: 15px 30px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.information .row .fieldRight .btn:hover {
+    letter-spacing: 7px;
+}
+
+.information .row .fieldLeft .fieldImg {
+    height: 100%;
+    width: 90%;
+    position: relative;
+}
+
+.information .row .fieldLeft .fieldImg img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 991px) {
+    .information {
+        min-height: 100vh;
+    }
+
+    .information .row {
+        min-height: 100vh;
+        padding: 0px 20px;
+    }
+
+    .information .row .fieldRight {
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .information {
+        height: 100%;
+    }
+
+    .information .row {
+        width: 100%;
+        height: 100%;
+        padding: 20px 20px 60px 20px;
+        display: block;
+    }
+
+    .information .row .fieldLeft {
+        width: 100%;
+    }
+
+    .information .row .fieldLeft .fieldImg {
+        width: 130px;
+        height: 235px;
+        margin: 0 auto;
+    }
+
+    .information .row .fieldRight {
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.fieldGoals {
+    font-size: 15px;
+    background-color: #2f4f4f;
+    min-height: 100vh;
+    padding: 100px;
+}
+
+.fieldGoals .container {
+    border-radius: 5px;
+    box-shadow: 0px 30px 40px -20px #203636;
+    padding: 30px;
+    margin: 20px 0px;
+    box-sizing: content-box;
+    cursor: pointer;
+    background: #203636;
+}
+
+/* .fieldGoals .row1 .container:hover i,
+.fieldGoals .row2 .container:hover i {
+    color: #ffffff;
+} */
+
+.fieldGoals .row1 .container h2,
+.fieldGoals .row2 .container h2 {
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.fieldGoals .row1 .container p,
+.fieldGoals .row2 .container p {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.fieldGoals .row1 .container img,
+.fieldGoals .row2 .container img {
+    float: right;
+}
+
+/* .fieldGoals .row1 .container i,
+.fieldGoals .row2 .container i {
+    float: right;
+    font-size: 80px;
+    padding: 10px;
+    color: #008000;
+} */
+
+@media (max-width: 450px) {
+    .fieldGoals {
+        padding: 20px 40px;
+    }
+}
+
+@media (max-width: 950px) and (min-width: 450px) {
+    .fieldGoals .container {
+        text-align: center;
+        height: 180px;
+    }
+}
+
+@media (min-width: 991px) {
+    .fieldGoals .row1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fieldGoals .row2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fieldGoals .row1 .containerHalf {
+        position: relative;
+        top: 150px;
+    }
+
+    .fieldGoals .container {
+        width: 25%;
+        margin: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .fieldGoals {
+        padding: 40px;
+    }
+}
+
+.fieldGoals .corBlue {
+    border-top: 3px solid #f29200;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.detailsServices {
+    padding: 100px 100px 0px 100px;
+}
+
+.detailsServices .container {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding: 0px 0px 40px;
+}
+
+.detailsServices .container a {
+    background: #2196f3;
+    color: #ffffff;
+    padding: 8px 30px;
+    display: inline-block;
+    font-weight: 500;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.5s;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.detailsServices .container a:hover {
+    background: #2196f3;
+    padding: 8px 45px;
+}
+
+.detailsServices .row {
+    width: 100%;
+    display: flex;
+}
+
+.detailsServices .row .col33 {
+    width: 34%;
+    margin: 10px;
+}
+
+.detailsServices .row .col24 {
+    width: 26%;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+.detailsServices .row .col100 {
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+}
+
+.detailsServices .row .col33 .containerR {
+    align-items: center;
+    text-align: right;
+    padding: 10px;
+}
+
+.detailsServices .row .col33 .containerR h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #000000;
+}
+
+.detailsServices .row .col33 .containerR p {
+    color: #222;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 300;
+    letter-spacing: .80px;
+}
+
+.detailsServices .row .col33 .containerR a {
+    background: #2196f3;
+    color: #ffffff;
+    padding: 8px 30px;
+    display: inline-block;
+    font-weight: 500;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.5s;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.detailsServices .row .col33 .containerR a:hover {
+    background: #2196f3;
+    padding: 8px 45px;
+}
+
+
+.detailsServices .row .col33 .containerL {
+    align-items: center;
+    text-align: left;
+    padding: 10px;
+}
+
+.detailsServices .row .col33 .containerL h2 {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #000000;
+}
+
+.detailsServices .row .col33 .containerL p {
+    color: #222;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 300;
+    letter-spacing: .80px;
+}
+
+.detailsServices .row .col33 .containerL a {
+    background: #2196f3;
+    color: #ffffff;
+    padding: 8px 30px;
+    display: inline-block;
+    font-weight: 500;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.5s;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.detailsServices .row .col33 .containerL a:hover {
+    background: #2196f3;
+    padding: 8px 45px;
+}
+
+.detailsServices .row .col24 .containerImg img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.detailsServices .row .col24 .containerImg {
+    box-sizing: border-box;
+}
+
+@media (max-width: 991px) {
+    .detailsServices {
+        padding: 40px;
+    }
+
+    .detailsServices .row {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .detailsServices .row .col33 {
+        width: 100%;
+    }
+
+    .detailsServices .row .col24 {
+        width: 30%;
+        margin: 10px auto;
+    }
+
+    .detailsServices .container {
+        padding: 0px 0px 20px;
+    }
+
+    .detailsServices .container p {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 760px) {
+    .detailsServices .row .col24 {
+        width: 50%;
+    }
+
+    .detailsServices .row .col33 .containerL,
+    .detailsServices .row .col33 .containerR {
+        padding: 0px 0px 10px;
+    }
+
+    .detailsServices .container p {
+        width: 100%;
+    }
+}
