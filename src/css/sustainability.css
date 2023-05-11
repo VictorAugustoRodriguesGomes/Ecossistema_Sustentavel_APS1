@@ -1,0 +1,345 @@
+.introduction {
+    width: 100%;
+    height: 100vh;
+    background: #003600;
+    position: relative;
+}
+
+.introduction::before {
+    content: '';
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 12;
+    background: linear-gradient(to top, #203636, transparent);
+}
+
+.introduction .fieldText {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 25%;
+    transition: 0.5s all ease-in-out;
+}
+
+.introduction.sticky .fieldText {
+    padding: 0 15%;
+}
+
+.introduction .fieldText h1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.introduction .fieldText p {
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 5px;
+    font-weight: 300;
+}
+
+.introduction .fieldText a {
+    background: #f29200;
+    color: #ffffff;
+    padding: 15px 30px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.introduction .fieldText a:hover {
+    letter-spacing: 4px;
+    background: #f29200;
+}
+
+.introduction .fieldIMG {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.introduction .fieldIMG::before {
+    content: '';
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    position: absolute;
+    /* background: #000000; */
+    background: #203636c9;
+}
+
+.introduction .fieldIMG img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aboutText {
+    width: 100%;
+    /* min-height: 100vh; */
+    position: relative;
+}
+
+.aboutText .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* padding: 0px 40px; */
+}
+
+.aboutText .container .textField {
+    width: 50%;
+    height: auto;
+    padding: 100px 40px;
+    background-color: #203636;
+}
+
+.aboutText .container .textField h1 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.aboutText .container .textField p {
+    margin-bottom: 18px;
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 5px;
+    font-weight: 300;
+}
+
+
+.aboutText .container .complementField {
+    width: 50%;
+    height: auto;
+    padding: 100px 40px;
+    background-color: #2f4f4f;
+}
+
+.aboutText .container .complementField .fieldIMG {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.aboutText .container .complementField .fieldIMG img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.services {
+    width: 100%;
+    min-height: 100vh;
+    background: #203636;
+    position: relative;
+    padding: 100px;
+}
+
+.services .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.services .content .contentServices {
+    padding: 40px 20px;
+    max-width: 340px;
+    margin: 20px;
+    transition: 0.5s;
+    text-align: center;
+    background: #2f4f4f;
+}
+
+.services .content .contentServices:hover {
+    background: #f29200;
+    cursor: pointer;
+}
+
+/* .services .content .contentServices i {
+    font-size: 80px;
+    max-width: 80px;
+    transition: 0.5s;
+}
+
+.services .content .contentServices:hover i {
+    filter: invert(1);
+} */
+
+.services .content .contentServices h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.5s;
+    color: #ffffff;
+}
+
+.services .content .contentServices:hover h2 {
+    color: #ffffff;
+}
+
+.services .content .contentServices p {
+    margin: 0;
+    transition: 0.5s;
+    color: #ffffff
+}
+
+.services .content .contentServices:hover p {
+    color: #ffffff
+}
+
+@media (max-width: 991px) {
+    .services {
+        padding: 40px;
+    }
+
+    .services .content .contentServices {
+        padding: 30px;
+        min-width: 100%;
+        margin: 10px;
+    }
+}
+
+@media(max-width:760px) {
+    .services .content .contentServices {
+        max-width: 100%;
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.latestInformation{
+    width: 100%;
+    height: 100%;
+    background: #203636;
+    position: relative;
+}
+
+.latestInformation .container{
+    width: 100%;
+    height: 100%;
+    padding: 100px 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.title,
+.titleNight {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    padding: 0 15%;
+}
+
+.title h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.title p {
+    margin-bottom: 18px;
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 5px;
+    font-weight: 300;
+}
+
+.titleNight h2,
+.titleNight p {
+    color: #f29200;
+}
