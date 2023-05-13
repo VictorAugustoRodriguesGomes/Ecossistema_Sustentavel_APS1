@@ -1,25 +1,25 @@
 
 function detailsServices1() {
     var imgdetailsServices = document.getElementById("imgdetailsServices");
-    imgdetailsServices.src = "img/ef1/vender.png";
+    imgdetailsServices.src = "src/img/electricity/F1.png";
 }
 
 function detailsServices2() {
     var imgdetailsServices = document.getElementById("imgdetailsServices");
-    imgdetailsServices.src = "img/ef1/capas.png";
+    imgdetailsServices.src = "src/img/solar/F1.png";
 }
 
 function detailsServices3() {
     var imgdetailsServices = document.getElementById("imgdetailsServices");
-    imgdetailsServices.src = "img/ef1/pelicula.png";
+    imgdetailsServices.src = "src/img/windEnergy/F1.png";
 }
 
 function detailsServices4() {
     var imgdetailsServices = document.getElementById("imgdetailsServices");
-    imgdetailsServices.src = "img/ef1/acesorios.png";
+    imgdetailsServices.src = "src/img/nuclearEnergy/F1.png";
 }
 
 function detailsServices5() {
     var imgdetailsServices = document.getElementById("imgdetailsServices");
-    imgdetailsServices.src = "img/ef1/base.png";
+    imgdetailsServices.src = "src/img/base/icone.png";
 }

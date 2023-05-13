@@ -113,7 +113,132 @@
 
 
 
+.aboutTextFirst {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background: #203636;
+}
 
+.aboutTextFirst .container {
+    padding: 100px 45px 0px 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutTextFirst .container .leftField {
+    width: 250px;
+    height: 360px;
+}
+
+.aboutTextFirst .container .rightField {
+    width: 100%;
+}
+
+.aboutTextFirst .container .rightField h1 {
+    font-size: 64px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: .32px;
+    text-align: center;
+}
+
+.aboutTextFirst .container .rightField h1 span {
+    color: #f29200;
+    font-size: 64px;
+}
+
+.aboutTextFirst .container .rightField h2 {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: .32px;
+    margin-bottom: 10px;
+}
+
+.aboutTextFirst .rightField p {
+    margin-bottom: 18px;
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 5px;
+    line-height: 20px;
+    font-weight: 300;
+    letter-spacing: .80px;
+}
+
+.aboutTextFirst .container .leftField .aboutImg {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.aboutTextFirst .container .leftField .aboutImg img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+    border: 10px solid #203636;
+    border-radius: 10px;
+}
+
+.aboutTextFirst .container .leftField .aboutImg::after {
+    content: '';
+    position: absolute;
+    left: -33px;
+    top: 19px;
+    height: 98%;
+    width: 98%;
+    border: 7px solid #f29200;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+    .aboutTextFirst .container {
+        flex-direction: row;
+    }
+
+    .aboutTextFirst .container .rightField {
+        text-align: left;
+        padding: 30px;
+    }
+
+    .aboutTextFirst .container .rightField {
+        font-size: 25px;
+        padding: 20px 0px 20px 30px;
+    }
+
+    .aboutTextFirst .container .rightField h1 {
+        font-size: 64px;
+        text-align: left;
+    }
+
+    .aboutTextFirst .container .leftField {
+        width: 600px;
+        height: 400px;
+        padding-left: 45px;
+    }
+
+    .aboutTextFirst .container .leftField .aboutImg::after {
+        left: -45px;
+        top: 34px;
+        height: 98%;
+        width: 98%;
+        border: 10px solid #f29200;
+    }
+}
+
+@media (max-width: 760px) {
+    .aboutTextFirst .container {
+        padding: 40px 20px;
+    }
+}
 
 
 
@@ -178,6 +303,199 @@
     height: 100%;
     object-fit: contain;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.servicesFirst {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background: #2f4f4f;
+    padding: 100px 40px;
+}
+
+.servicesFirst .container {
+    border-radius: 10px;
+    margin: 0 0 30px 0;
+    position: relative;
+    padding: 32px 56px;
+    transition: 1s ease-in-out;
+    background-color: #203636;
+    box-shadow: 0 4px 30px -7px #00000066;
+}
+
+.servicesFirst .container h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+    font-weight: 500;
+    line-height: 1.2;
+    cursor: pointer;
+    color: #ffffff;
+    text-align: left;
+}
+
+.servicesFirst .container h2 {
+    text-align: left;
+    margin: 5px 0px 15px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 100;
+}
+
+.servicesFirst .container .bar {
+    width: 50px;
+    height: 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #f29200;
+    transition: width 0.2s ease;
+}
+
+.servicesFirst .container:hover .bar {
+    width: 110px;
+}
+
+.servicesFirst .container .contentTime {
+    display: flex;
+}
+
+.servicesFirst .container .contentTime .contentTime2 {
+    margin-right: 40px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #f29200;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.servicesFirst .container .contentTime .contentTime2 p {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.servicesFirst .container .content:before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: -20%;
+    height: 130%;
+    width: 55px;
+    background: #ffffff;
+    transition: 0.5s ease-in-out;
+}
+
+.servicesFirst .container:nth-child(2n+1) {
+    flex-direction: row;
+    transition: 0.5s ease-in-out;
+}
+
+.servicesFirst .container:nth-child(2n+0) {
+    flex-direction: row-reverse;
+    transition: 0.5s ease-in-out;
+}
+
+.servicesFirst .container:nth-child(2n+1) .container::before {
+    left: -12px !important;
+    transform: rotate(4deg);
+    background-color: #ffffff;
+    transition: 0.5s ease-in-out;
+}
+
+.servicesFirst .container:nth-child(2n+0) .container::before {
+    right: -12px !important;
+    transform: rotate(-4deg);
+    background: #ffffff;
+    transition: 0.5s ease-in-out;
+}
+
+@media (max-width: 991px) {
+    .servicesFirst {
+        padding: 20px 40px 60px;
+    }
+
+    .servicesFirst .container {
+        flex-wrap: wrap;
+    }
+
+    .servicesFirst .content {
+        padding: 25px 15px 15px 15px;
+    }
+
+    .servicesFirst .container:before {
+        position: absolute;
+        display: block;
+        top: 0;
+        height: 10px;
+        width: 200%;
+        left: 0px;
+    }
+
+    .servicesFirst .container:nth-child(2n+0) {
+        display: block;
+    }
+
+    .servicesFirst .container:nth-child(2n+1) .container::before {
+        left: 0px;
+        transform: rotate(0deg);
+        background: #ffffff;
+        transition: 0.5s ease-in-out;
+    }
+
+    .servicesFirst .container:nth-child(2n+0) .container::before {
+        left: 0px;
+        transform: rotate(0deg);
+        background: #ffffff;
+        transition: 0.5s ease-in-out;
+    }
+
+    .servicesFirst .container h1 {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .servicesFirst {
+        padding: 20px 20px 60px;
+    }
+
+    .servicesFirst .container {
+        padding: 10px;
+    }
+
+    .servicesFirst .container .contentTime {
+        display: block;
+        margin: 15px 0px;
+    }
+
+    .servicesFirst .container .content h2 {
+        margin: 5px 0px;
+    }
+}
+
+
+
+/* @media only screen and (min-width: 0px) and (max-width: 767px) {
+
+    .products .container .card:nth-child(4) {
+        display: block;
+    }
+} */
 
 
 
@@ -300,7 +618,7 @@
 .latestInformation .container{
     width: 100%;
     height: 100%;
-    padding: 100px 40px;
+    padding: 0px 40px 100px 40px;
 }
 
 

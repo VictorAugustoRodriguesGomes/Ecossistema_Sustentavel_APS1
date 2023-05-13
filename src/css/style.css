@@ -216,35 +216,27 @@ footer .container {
 }
 
 footer .container .about {
-    width: 80%;
+    width: 70%;
+    position: relative;
+    margin: 0px 100px 0px 0px;
 }
 
-footer .container .fieldBTN {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-footer .fieldBTN .btn {
-    background: #f29200;
+footer .container .links .titleField h1,
+footer .container .about .titleField h1 {
+    font-size: 30px;
+    font-weight: 300;
     color: #ffffff;
-    padding: 10px 29px;
-    display: inline-block;
-    text-decoration: none;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+footer .container .links .titleField h1 span,
+footer .container .about .titleField h1 span {
+    color: #f29200;
     font-weight: 500;
-    letter-spacing: 2px;
-    margin-bottom: 0px;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-top: 10px;
-    transition: 0.5s;
-    font-size: 15px;
 }
 
-footer .fieldBTN .btn:hover {
-    letter-spacing: 5px;
-}
-
-footer .container h2 {
+/* footer .container h2 {
     position: relative;
     color: #ffffff;
     font-size: 22px;
@@ -262,7 +254,7 @@ footer .container h2::before {
     width: 50px;
     height: 2px;
     background: #f29200;
-}
+} */
 
 footer p {
     position: relative;
@@ -270,11 +262,12 @@ footer p {
     font-weight: 400;
     margin-bottom: 2px;
     color: #ffffff;
+    margin: 0px 0px 15px 0px;
 }
 
 footer .container .links {
     position: relative;
-    width: 20%;
+    width: 30%;
 }
 
 footer .container .links ul li {
@@ -335,18 +328,6 @@ footer .container .links ul li a:hover {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
     .footer {
         padding: 30px 20px 10px 20px;
-    }
-
-    footer .container .fieldBTN {
-        display: grid;
-    }
-
-    footer .container .fieldBTN .btn {
-        text-align: center;
-    }
-
-    footer .container .fieldBTN .btn:hover {
-        letter-spacing: 4px;
     }
 
     .copyrightText {
