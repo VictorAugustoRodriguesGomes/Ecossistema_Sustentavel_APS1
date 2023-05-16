@@ -1,11 +1,10 @@
 .introduction {
     width: 100%;
     height: 100vh;
-    background: #003600;
     position: relative;
 }
 
-/* background-image: linear-gradient(to right top, #003600, #008000); */
+/* background-image: linear-gradient(to right top, #, #); */
 
 .introduction::before {
     content: '';
@@ -253,14 +252,6 @@
 .object .row2 .container img {
     float: right;
 }
-
-/* .object .row1 .container i,
-.object .row2 .container i {
-    float: right;
-    font-size: 80px;
-    padding: 10px;
-    color: #008000;
-} */
 
 @media (max-width: 450px) {
     .object {
