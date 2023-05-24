@@ -84,14 +84,7 @@ header.sticky ul li a {
     color: #111111;
 }
 
-@media (max-width: 991px) {
-
-    header,
-    header.sticky {
-        padding: 20px;
-        z-index: 1000;
-    }
-
+@media (max-width: 1260px) {
     .menu {
         position: fixed;
         top: 0px;
@@ -182,6 +175,14 @@ header.sticky ul li a {
     }
 }
 
+@media (max-width: 991px) {
+    header,
+    header.sticky {
+        padding: 20px;
+        z-index: 1000;
+    }
+}
+
 @media only screen and (min-device-width: 480px) and (max-device-width: 767px) {
     .menu {
         width: 100%;
@@ -193,8 +194,6 @@ header.sticky ul li a {
         display: none;
     }
 }
-
-
 
 footer {
     position: relative;
@@ -245,7 +244,6 @@ footer .container .about .titleField h1 span {
     text-transform: capitalize;
     margin-bottom: 30px;
 }
-
 footer .container h2::before {
     content: "";
     position: absolute;
