@@ -183,6 +183,12 @@ header.sticky ul li a {
     }
 }
 
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .toggle {
+        width: 75px;
+    }
+}
+
 @media only screen and (min-device-width: 480px) and (max-device-width: 767px) {
     .menu {
         width: 100%;

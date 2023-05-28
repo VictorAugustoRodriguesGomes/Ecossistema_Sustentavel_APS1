@@ -61,6 +61,7 @@
     font-size: 17px;
     text-align: center;
     margin-top: 10px;
+    text-transform: capitalize;
 }
 
 .introduction .fieldText a:hover {
@@ -79,6 +80,38 @@
     height: 100%;
     object-fit: cover;
     position: absolute;
+}
+
+@media (max-width: 991px) {
+
+    .introduction .fieldText,
+    .introduction.sticky .fieldText {
+        padding: 100px 20px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+
+    .introduction .fieldText,
+    .introduction.sticky .fieldText {
+        z-index: 5;
+        width: 100%;
+        height: 100%;
+    }
+
+    .introduction .fieldIMG::before {
+        content: '';
+        top: 0;
+        z-index: 3;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: #203636aa;
+    }
+
+    .introduction .fieldText a {
+        display: block;
+    }
 }
 
 .information {
@@ -200,14 +233,22 @@
     }
 
     .information .row .fieldLeft .fieldImg {
-        width: 130px;
-        height: 235px;
+        width: 250px;
+        height: 300px;
         margin: 0 auto;
+    }
+
+    .information .row .fieldLeft .fieldImg img {
+        object-fit: contain;
     }
 
     .information .row .fieldRight {
         width: 100%;
         margin-left: 0px;
+    }
+
+    .information .row .fieldRight .btn {
+        display: block;
     }
 }
 
@@ -215,7 +256,7 @@
     font-size: 15px;
     background-color: #2f4f4f;
     min-height: 100vh;
-    padding: 100px;
+    padding: 100px 20px;
 }
 
 .object .container {
@@ -292,7 +333,7 @@
 
 @media (max-width: 991px) {
     .object {
-        padding: 40px;
+        padding: 80px 20px;
     }
 }
 
@@ -311,6 +352,12 @@
     width: 100%;
     height: 100%;
     padding: 100px 40px;
+}
+
+@media (max-width: 991px) {
+    .latestInformation .container {
+        padding: 80px 20px;
+    }
 }
 
 .carousel {
@@ -333,7 +380,7 @@
     transform: translateX(-50%);
     display: flex;
     gap: 10px;
-    z-index: 10000000000;
+    z-index: 20;
 }
 
 .carousel .container .select label {
@@ -373,7 +420,7 @@
 }
 
 .carousel .container .content .box:nth-child(1) {
-    background-image: linear-gradient(to bottom, #2f4f4f, #203636);
+    background-image: linear-gradient(to right, #203636, #2f4f4f, #203636);
 }
 
 .carousel .container .content .box:nth-child(2) {
@@ -385,7 +432,7 @@
 }
 
 .carousel .container .content .box:nth-child(4) {
-    background-image: linear-gradient(to bottom, #2f4f4f, #203636);
+    background-image: linear-gradient(to right, #203636, #2f4f4f, #203636);
 }
 
 .carousel .container input:nth-child(1):checked~.content {
@@ -413,15 +460,18 @@
 }
 
 .carousel .container .content .box .textField h2 {
-    font-size: 3em;
+    font-size: 30px;
+    font-weight: 300;
     color: #ffffff;
+    text-align: center;
 }
 
 .carousel .container .content .box .textField p {
-    font-size: 1.2em;
     color: #ffffff;
     max-width: 700px;
     text-align: center;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .carousel .container .content .box .textField .btn {
@@ -443,6 +493,18 @@
 
 .carousel .container .content .box .textField .btn:hover {
     letter-spacing: 7px;
+}
+
+@media (max-width: 991px) {
+    .carousel .container .content .box {
+        padding: 40px 20px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .carousel .container .content .box .textField .btn{
+        width: 100%;
+    }
 }
 
 .detailsServices {
@@ -548,7 +610,12 @@
 
 @media (max-width: 991px) {
     .detailsServices {
-        padding: 40px;
+        padding: 80px 0px;
+    }
+
+    .detailsServices .container .titleP{
+        width: 100%;
+        padding: 20px;
     }
 
     .detailsServices .row {
@@ -576,6 +643,10 @@
 }
 
 @media only screen and (min-width: 0px) and (max-width: 760px) {
+    .detailsServices {
+        padding: 80px 10px;
+    }
+
     .detailsServices .row .col24 {
         width: 50%;
     }
@@ -618,4 +689,12 @@
 .titleNight h2,
 .titleNight p {
     color: #f29200;
+}
+
+@media (max-width: 991px) {
+
+    .title,
+    .titleNight {
+        padding: 0;
+    }
 }
