@@ -81,7 +81,6 @@
     height: 100%;
     z-index: 3;
     position: absolute;
-    /* background: #000000; */
     background: #203636aa;
 }
 
@@ -93,6 +92,7 @@
 }
 
 @media (max-width: 991px) {
+
     .introduction .fieldText,
     .introduction.sticky .fieldText {
         width: 50%;
@@ -103,34 +103,17 @@
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-    .introduction .fieldText, .introduction.sticky .fieldText{
+
+    .introduction .fieldText,
+    .introduction.sticky .fieldText {
         width: 100%;
         padding: 35px 20px 20px 20px;
     }
 
-    .introduction .fieldText a{
+    .introduction .fieldText a {
         width: 100%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .aboutTextFirst {
     width: 100%;
@@ -216,7 +199,7 @@
     border-radius: 10px;
 }
 
- @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .aboutTextFirst .container {
         flex-direction: row;
     }
@@ -254,13 +237,6 @@
         border: 10px solid #f29200;
     }
 }
-/*
-
-@media only screen and (min-width: 0px) and (max-width: 760px) {
-    .aboutTextFirst .container {
-        padding: 40px 20px;
-    }
-} */
 
 @media (max-width: 991px) {
     .aboutTextFirst .container {
@@ -283,26 +259,17 @@
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-    .aboutTextFirst .container{
+    .aboutTextFirst .container {
         padding: 10px 20px 40px 20px;
     }
 
-    .aboutTextFirst .container .leftField .aboutImg img{
+    .aboutTextFirst .container .leftField .aboutImg img {
         border: none;
     }
 }
 
-
-
-
-
-
-
-
-
 .aboutText {
     width: 100%;
-    /* min-height: 100vh; */
     position: relative;
 }
 
@@ -310,7 +277,6 @@
     width: 100%;
     height: 100%;
     display: flex;
-    /* padding: 0px 40px; */
 }
 
 .aboutText .container .textField {
@@ -336,7 +302,6 @@
     font-weight: 300;
 }
 
-
 .aboutText .container .complementField {
     width: 50%;
     height: auto;
@@ -358,7 +323,7 @@
     transition: all 0.3s ease-in-out;
 }
 
-.aboutText .container .complementField .fieldIMG img:hover{
+.aboutText .container .complementField .fieldIMG img:hover {
     transform: scale(1.3);
 }
 
@@ -376,27 +341,7 @@
     .aboutText .container .complementField .fieldIMG {
         height: 300px;
     }
-
-    /* .aboutText .container .complementField .fieldIMG img {
-        object-fit: contain;
-    } */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .servicesFirst {
     width: 100%;
@@ -568,32 +513,6 @@
     }
 }
 
-
-
-/* @media only screen and (min-width: 0px) and (max-width: 767px) {
-
-    .products .container .card:nth-child(4) {
-        display: block;
-    }
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .services {
     width: 100%;
     min-height: 100vh;
@@ -622,16 +541,6 @@
     background: #f29200;
     cursor: pointer;
 }
-
-/* .services .content .contentServices i {
-    font-size: 80px;
-    max-width: 80px;
-    transition: 0.5s;
-}
-
-.services .content .contentServices:hover i {
-    filter: invert(1);
-} */
 
 .services .content .contentServices h2 {
     margin-top: 20px;
@@ -678,17 +587,6 @@
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .latestInformation,
 .latestInformationFirst {
     width: 100%;
@@ -705,6 +603,7 @@
 }
 
 @media (max-width: 991px) {
+
     .latestInformation .container {
         padding: 0px 20px 100px;
     }
@@ -715,25 +614,15 @@
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
+
     .latestInformationFirst .container {
         padding: 50px 20px;
     }
 
-    .latestInformation .container{
+    .latestInformation .container {
         padding: 0px 20px 40px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .title,
 .titleNight {

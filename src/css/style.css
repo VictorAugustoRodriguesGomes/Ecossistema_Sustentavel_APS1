@@ -176,6 +176,7 @@ header.sticky ul li a {
 }
 
 @media (max-width: 991px) {
+
     header,
     header.sticky {
         padding: 20px;
@@ -246,25 +247,6 @@ footer .container .about .titleField h1 span {
     font-weight: 500;
 }
 
-/* footer .container h2 {
-    position: relative;
-    color: #ffffff;
-    font-size: 22px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    text-transform: capitalize;
-    margin-bottom: 30px;
-}
-footer .container h2::before {
-    content: "";
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width: 50px;
-    height: 2px;
-    background: #f29200;
-} */
-
 footer p {
     position: relative;
     font-size: 17px;
@@ -313,6 +295,7 @@ footer .container .links ul li a:hover {
 }
 
 @media (max-width: 991px) {
+
     footer {
         padding: 50px 20px 10px 20px;
     }
@@ -335,6 +318,7 @@ footer .container .links ul li a:hover {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
+
     .footer {
         padding: 30px 20px 10px 20px;
     }
