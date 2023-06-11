@@ -6,7 +6,7 @@ function detailsServices1() {
 
 function detailsServices2() {
     var imgdetailsServices = document.getElementById("imgdetailsServices");
-    imgdetailsServices.src = "src/img/solar/F1.png";
+    imgdetailsServices.src = "src/img/solarEnergy/F1.png";
 }
 
 function detailsServices3() {
