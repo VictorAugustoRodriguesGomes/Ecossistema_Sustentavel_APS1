@@ -84,6 +84,7 @@ header.sticky ul li a {
     color: #111111;
 }
 
+
 @media (max-width: 1260px) {
     .menu {
         position: fixed;
