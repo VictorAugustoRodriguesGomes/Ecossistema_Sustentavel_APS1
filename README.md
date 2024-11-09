@@ -16,17 +16,13 @@ Desenvolvido com HTML, CSS e JavaScript, este projeto é uma prova da minha habi
 </br>
 
 <div align="center">
-<img src="https://github.com/VictorAugustoRodriguesGomes/Projeto_Fenix/blob/main/Site%20Xbox/src/img/base/img%20do%20projeto%20para%20o%20GitHub/P1.png?raw=true" width="400"/>
+<img src="https://github.com/VictorAugustoRodriguesGomes/Ecossistema_Sustentavel_APS1/blob/main/src/img/img%20para%20o%20github/F1.png?raw=true" width="400"/>
 
-<img src="https://github.com/VictorAugustoRodriguesGomes/Projeto_Fenix/blob/main/Site%20Xbox/src/img/base/img%20do%20projeto%20para%20o%20GitHub/P2.png?raw=true" width="400"/>
+<img src="https://github.com/VictorAugustoRodriguesGomes/Ecossistema_Sustentavel_APS1/blob/main/src/img/img%20para%20o%20github/F2.png?raw=true" width="400"/>
 
-<img src="https://github.com/VictorAugustoRodriguesGomes/Projeto_Fenix/blob/main/Site%20Xbox/src/img/base/img%20do%20projeto%20para%20o%20GitHub/P3.png?raw=true" width="400"/>
+<img src="https://github.com/VictorAugustoRodriguesGomes/Ecossistema_Sustentavel_APS1/blob/main/src/img/img%20para%20o%20github/F3.png?raw=true" width="400"/>
 
-<img src="https://github.com/VictorAugustoRodriguesGomes/Projeto_Fenix/blob/main/Site%20Xbox/src/img/base/img%20do%20projeto%20para%20o%20GitHub/P4.png?raw=true" width="400"/>
-
-<img src="https://github.com/VictorAugustoRodriguesGomes/Projeto_Fenix/blob/main/Site%20Xbox/src/img/base/img%20do%20projeto%20para%20o%20GitHub/P5.png?raw=true" width="400"/>
-
-<img src="https://github.com/VictorAugustoRodriguesGomes/Projeto_Fenix/blob/main/Site%20Xbox/src/img/base/img%20do%20projeto%20para%20o%20GitHub/P6.png?raw=true" width="400"/>
+<img src="https://github.com/VictorAugustoRodriguesGomes/Ecossistema_Sustentavel_APS1/blob/main/src/img/img%20para%20o%20github/F4.png?raw=true" width="400"/>
 
 </div>
 
@@ -45,4 +41,4 @@ Este projeto é licenciado sob os termos da licença Apache 2.0.
 
 ---------
 
-<img src="https://github.com/VictorAugustoRodriguesGomes/Projeto_Fenix/blob/main/Site%20Xbox/src/img/base/img%20do%20projeto%20para%20o%20GitHub/P9.png?raw=true"/>
+<img src="https://github.com/VictorAugustoRodriguesGomes/Ecossistema_Sustentavel_APS1/blob/main/src/img/img%20para%20o%20github/F5.png?raw=true"/>
